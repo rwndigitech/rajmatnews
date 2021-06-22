@@ -1,0 +1,7 @@
+{
+  "name": "Rajmatnews",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
