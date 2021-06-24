@@ -1,0 +1,45 @@
+.sidebar_header {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    ion-toolbar {
+        --background: transparent;
+        ion-title {
+            img {
+                max-width: 150px;
+                width: 100%;
+                margin: 20px;
+            }
+        }
+    }
+}
+.logo_sec {
+    background: #fff;
+    text-align: center;
+    img {
+        max-width: 150px;
+        width: 100%;
+        margin: 20px;
+    }
+}
+.sidebar_menu_list{
+    ion-item {
+        ion-icon {
+          color: #e57a24;
+        }
+        ion-label{
+            color: #e57a24;   
+        }
+    }
+}
+
+.sidebar_app_sec {
+    --background: transparent;
+    opacity: .9;
+}
+h6.commu_sec {
+    padding-left: 18px;
+    color: #ea9550;
+    font-size: 16px;
+    font-weight: 600;
+}

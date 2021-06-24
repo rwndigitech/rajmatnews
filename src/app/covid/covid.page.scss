@@ -1,0 +1,59 @@
+.header_sec {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.banner_sec {
+    background: url(/assets/imgs/virusimg.png);
+    padding: 88px 60px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    h4 {
+        color: #fff;
+        line-height: 35px;
+        font-size: 25px;
+    }
+}
+.covid_text_doc {
+    // background: #fff;
+    padding: 5px 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: -55px;
+    border-radius: 32px 32px 0 0;
+    background: transparent;
+    background: url(/assets/imgs/bg2.png);
+    background-size: cover;
+    background-position: center -5px;
+    background-repeat: no-repeat;
+    h5 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #e57a24;
+    }
+    strong {
+        font-size: 16px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    span {
+        color: #9c9c9c;
+        font-size: 14px;
+    }
+    p.dark_clr {
+        font-weight: 600;
+        line-height: 22px;
+        font-size: 14px;
+    }
+    p.light_clr {
+        color: #9c9c9c;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,73 @@
+ion-content{
+    --background: transparent;
+    background: url(/assets/imgs/bg2.png);
+    background-size: cover;
+    background-position: center -5px;
+    background-repeat: no-repeat;
+}
+
+.my_profile_sec {
+    h6 {
+        color: #e57a24;
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    ion-item{
+        --inner-padding-end: 0;
+        --background: transparent;
+        img {
+            max-width: 50px;
+            width: 100%;
+            height: 50px;
+            border-radius: 100%;
+            object-fit: cover;
+        }
+        ion-label {
+            margin-left: 12px;
+            font-size: 14px !important;
+        }
+        span {
+            background: #ec9f61;
+            padding: 5px 14px;
+            color: #fff;
+            font-size: 12px;
+            border-radius: 4px;
+        }
+        ion-toggle{
+            zoom: .7 !important;
+        }
+    }
+}
+
+.preference {
+    margin-top: 25px;
+    h5 {
+        font-size: 16px;
+        color: #f7ba89;
+    }
+    ion-item {
+        --inner-padding-end: 0;
+        --background: transparent;
+        ion-icon {
+            border: 1px solid #f9d6b9;
+            border-radius: 4px;
+            font-size: 16px;
+            padding: 3px;
+            color: #ec9f61;
+        }
+        ion-label{
+            margin-left: 12px;
+            font-size: 14px !important;
+            color: #ec9f61 !important;
+        }
+        .toggle-checked {
+            --handle-background-checked: #fff;
+            --background-checked: #ec9f61;
+        }
+        ion-icon[name="chevron-forward"] {
+            border: 0 !important;
+            font-size: 20px !important;
+            padding: 0 15px !important;
+        }
+    }
+}

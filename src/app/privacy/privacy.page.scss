@@ -1,0 +1,38 @@
+.header_sec{
+    ion-toolbar {
+        --background: #ff9800;
+        color: #fff;
+        ion-title {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+            margin: auto;
+        }
+        ion-menu-button{
+            color:#fff;
+        }
+    }
+}
+.Privacy_sec {
+    h4 {
+      font-size: 28px;
+      position: relative;
+    }
+    p{
+        color: #5a5a5a;
+        line-height: 22px;
+        text-align: justify;
+    }
+    h4:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        border-bottom: 3px solid #ff9800;
+        width: 92px;
+        bottom: -5px;
+    }
+}

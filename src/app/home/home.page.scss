@@ -1,0 +1,124 @@
+super-tabs{
+    super-tabs-toolbar{
+        background: transparent;
+        super-tab-button {
+            ion-label {
+             white-space: nowrap;
+             padding: 0 !important;
+             font-size: 16px !important;
+             text-transform: capitalize;
+            }
+        }
+    }
+    ion-icon[name="caret-down"] {
+        position: absolute;
+        right: 1px;
+        top: 14px;
+        background: #ff9800;
+        color: #fff;
+        padding: 2px;
+        border-radius: 4px;
+    }
+}
+super-tab-button.active {
+    border-bottom: 3px solid #ff9800;
+    margin-bottom: 5px;
+}
+ion-content{
+    --background: transparent;
+    background: url(/assets/imgs/bg2.png);
+    background-size: cover;
+    background-position: center -5px;
+    background-repeat: no-repeat;
+}
+
+.news_sec{
+    ion-col[size="12"]{
+        h5{
+            color: #ff9800;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        span{
+            font-size: 14px;
+            color: gray;
+        }
+    }
+} 
+.wrap_sec{
+    img {
+        width: 100%;
+        margin: auto;
+        padding: 10px 4px;
+        height: 195px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    p {
+        margin-top: 0;
+        font-size: 13px;
+        line-height: 22px;
+        margin-bottom: 0;
+    }
+}
+
+.today_sec {
+    ion-label {
+        p {
+            span {
+                background: #ff9800;
+                padding: 5px;
+                margin-right: 8px;
+                width: 30px;
+                height: 30px;
+                display: inline-block;
+                color: #fff !important;
+                text-align: center;
+                border-radius: 100%;
+            }
+        }
+    }
+    .selected_icon{
+        text-align: right;
+        ion-icon{
+            color: #ff9800;
+        }
+    }
+   
+}
+.iocn_badge {
+    background: transparent;
+    color: #ff9800;
+    font-size: 12px;
+    position: relative;
+    top: 3px;
+}
+.listing_item {
+    img {
+        max-width: 100px;
+        height: 100px;
+        width: 100%;
+        object-fit: contain;
+    }
+    ion-label {
+        margin-right: 12px;
+        p {
+            white-space: normal;
+            font-size: 13px !important;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+    }
+}
+.not_select_icon {
+    text-align: right;
+    ion-icon {
+        color: gray;
+    }
+    .iocn_badge{
+        color: gray !important;
+    }
+}

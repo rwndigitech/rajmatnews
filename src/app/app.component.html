@@ -1,3 +1,44 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <!-- <ion-split-pane> -->
+    <ion-menu type="overlay" class="sidebar_app_sec">
+      <ion-header class="sidebar_header">
+        <ion-toolbar>
+          <ion-title>
+            &nbsp;
+          </ion-title>
+        </ion-toolbar>
+      
+        <!-- <img src="assets/imgs/rajmat.png"> -->
+      </ion-header>
+      <div class="logo_sec">
+        <img src="assets/imgs/rajmat.png">
+      </div>
+      <ion-content>
+        <ion-list class="sidebar_menu_list">
+          <ion-menu-toggle auto-hide="false">
+            <ion-item  *ngFor="let p of appPages" lines="none" [routerDirection]="'root'" [routerLink]="[p.url]">
+              <ion-icon slot="start" [name]="p.icon"></ion-icon>
+              <ion-label>
+                {{p.title}}
+              </ion-label>
+            </ion-item>
+            <h6 class="commu_sec">Communicate</h6>
+            <ion-item  *ngFor="let p of appPages2" lines="none" [routerDirection]="'root'" [routerLink]="[p.url]">
+              <ion-icon slot="start" [name]="p.icon"></ion-icon>
+              <ion-label>
+                {{p.title}}
+              </ion-label>
+            </ion-item>
+            <ion-item (click)="doLogout()">
+              <ion-icon slot="start" name="log-out"></ion-icon>
+              <ion-label>
+                Logout
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet main></ion-router-outlet>
+  <!-- </ion-split-pane> -->
 </ion-app>
