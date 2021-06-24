@@ -42,11 +42,7 @@ export class AppComponent {
       url: "/tabs/share",
       icon: "share"
     },
-    // {
-    //   title: "Rate App",
-    //   url: "/tabs/discover",
-    //   icon: "search"
-    // },
+    
     {
       title: "User",
       url: "/tabs/profile",
