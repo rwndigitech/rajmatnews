@@ -1,6 +1,6 @@
 .header_sec{
     ion-toolbar {
-        --background: #ff9800;
+        --background: #C6202F;
         color: #fff;
         ion-title {
             position: absolute;
@@ -10,6 +10,7 @@
             bottom: 0;
             text-align: center;
             margin: auto;
+            font-size: 16px;
         }
         ion-menu-button{
             color:#fff;
@@ -31,7 +32,7 @@
         position: absolute;
         left: 0;
         right: 0;
-        border-bottom: 3px solid #ff9800;
+        border-bottom: 3px solid #C6202F;
         width: 92px;
         bottom: -5px;
     }

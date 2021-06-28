@@ -14,14 +14,14 @@ super-tabs{
         position: absolute;
         right: 1px;
         top: 14px;
-        background: #ff9800;
+        background: #C6202F;
         color: #fff;
         padding: 2px;
         border-radius: 4px;
     }
 }
 super-tab-button.active {
-    border-bottom: 3px solid #ff9800;
+    border-bottom: 3px solid #C6202F;
     margin-bottom: 5px;
 }
 ion-content{
@@ -35,7 +35,7 @@ ion-content{
 .news_sec{
     ion-col[size="12"]{
         h5{
-            color: #ff9800;
+            color: #C6202F;
             font-weight: 600;
             font-size: 16px;
         }
@@ -66,7 +66,7 @@ ion-content{
     ion-label {
         p {
             span {
-                background: #ff9800;
+                background: #C6202F;
                 padding: 5px;
                 margin-right: 8px;
                 width: 30px;
@@ -81,14 +81,14 @@ ion-content{
     .selected_icon{
         text-align: right;
         ion-icon{
-            color: #ff9800;
+            color: #C6202F;
         }
     }
    
 }
 .iocn_badge {
     background: transparent;
-    color: #ff9800;
+    color: #C6202F;
     font-size: 12px;
     position: relative;
     top: 3px;
@@ -120,5 +120,15 @@ ion-content{
     }
     .iocn_badge{
         color: gray !important;
+    }
+}
+.add_circle{
+    ion-icon[name="add"] {
+        background: #c6202f;
+        color: #fff;
+        font-size: 28px;
+        border-radius: 30px;
+        padding: 3px;
+        margin-top: 5px;
     }
 }

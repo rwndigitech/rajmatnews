@@ -1,0 +1,25 @@
+<ion-content>
+ <ion-grid class="login_logo_wrap">
+   <ion-row class="inner_sec">
+     <ion-col size="12">
+       <div class="wrap_logo_sec">
+         <img src="assets/imgs/rajmat.png">
+       </div>
+      <div class="radio_block">
+        <ion-radio-group>
+            <div [class]="griffclass" routerLink="/signup">
+                <ion-radio slot="start" value="customer" checked (ionSelect)="radioChecked($event)"></ion-radio>
+                <ion-label>Role of Admin</ion-label>
+                </div>
+            <div [class]="biffclass" routerLink="/signup">
+            <ion-radio slot="start" value="barber"  (ionSelect)="radioChecked($event)"></ion-radio>
+            <ion-label>Role of clients</ion-label>
+            </div>
+
+           
+        </ion-radio-group>
+     </div>  
+     </ion-col>
+   </ion-row>
+ </ion-grid>
+</ion-content>

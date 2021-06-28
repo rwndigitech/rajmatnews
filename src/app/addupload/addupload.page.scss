@@ -1,0 +1,78 @@
+.header_sec{
+    ion-toolbar {
+        --background: #C6202F;
+        color: #fff;
+        ion-title {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+            margin: auto;
+            font-size: 16px;
+        }
+    }
+}
+
+.toggle_sec {
+    width: 100%;
+    max-width: 20px;
+    // margin: 0px 14px;
+}
+
+.card_img {
+    ion-col[size="12"] {
+        text-align: center;
+        img {
+            max-width: 95%;
+            width: 100%;
+            margin: auto;
+            border-radius: 10px;
+            height: 100%;
+            min-height: 200px;
+            max-height: 200px;
+            object-fit: cover;
+            padding: 30px;
+            margin-top: 18px;
+            border: 2px dashed #edf2f4;
+        }
+    }
+    
+}
+
+.news_title {
+    max-width: 92%;
+    width: 100%;
+    background: #edf2f4;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+}
+.textarea_sec {
+    max-width: 92%;
+    width: 100%;
+    margin: auto;
+    background: #edf2f4;
+    border-radius: 6px;
+    padding: 0px 0px;
+    ion-textarea {
+        height: 130px;
+    }
+}
+
+.addnew_btn{
+    margin-top: 20px;
+    ion-button {
+        width: 100%;
+        --border-radius: 30px;
+        height: 42px;
+        --background: #C6202F;
+        width: 100%;
+        max-width: 92%;
+        margin: 0 auto;
+        text-transform: uppercase;
+    }
+   
+}

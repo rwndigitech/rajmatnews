@@ -18,40 +18,47 @@ import { Router } from "@angular/router";
 export class AppComponent {
   loggedinuserid:any;
   devicetoken:any='';
+  src: any;
   isLoading:boolean=false;
   public appPages = [
     {
       title: "Home",
       url: "/tabs/home",
-      icon: "home"
+      // icon: "home"
+      img: 'assets/imgs/home.png'
     },
     {
       title: "Discover",
       url: "/tabs/discover",
-      icon: "search"
+      // icon: "search"
+      img: 'assets/imgs/home.png'
     },
     {
       title: "Covid-19",
       url: "/tabs/covid",
-      icon: "bug"
+      // icon: "bug"
+      img: 'assets/imgs/covid.png'
     },
   ];
   public appPages2 = [
     {
       title: "Share App",
       url: "/tabs/share",
-      icon: "share"
+      // icon: "share"
+      img: 'assets/imgs/share.png'
     },
     
     {
       title: "User",
       url: "/tabs/profile",
-      icon: "person"
+      // icon: "person"
+      img: 'assets/imgs/person.png'
     },
     {
       title: "Privacy Policy",
       url: "/privacy",
-      icon: "shield-checkmark"
+      // icon: "shield-checkmark"
+      img: 'assets/imgs/privacy.png'
     },
   ];
 
@@ -74,7 +81,7 @@ export class AppComponent {
 					text: "Yes",
 					handler: () => {
 						// this.storage.clear();
-						this.router.navigate(["/signin"]);
+						this.router.navigate(["/loginusers"]);
 					}
 				},
 				{

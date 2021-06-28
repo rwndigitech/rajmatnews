@@ -20,16 +20,25 @@
         max-width: 150px;
         width: 100%;
         margin: 20px;
+        margin-top: 55px;
+        margin-bottom: 35px;
     }
 }
 .sidebar_menu_list{
     ion-item {
         ion-icon {
-          color: #e57a24;
+          color: #C6202F;
         }
         ion-label{
-            color: #e57a24;   
+            color: #C6202F;
+            margin-left: 12px; 
         }
+    }
+    ion-icon[name="log-out"] {
+        margin-right: 0;
+    }
+    img {
+        margin-right: 2px;
     }
 }
 
@@ -39,7 +48,7 @@
 }
 h6.commu_sec {
     padding-left: 18px;
-    color: #ea9550;
+    color: #C6202F;
     font-size: 16px;
     font-weight: 600;
 }

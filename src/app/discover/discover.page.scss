@@ -18,7 +18,7 @@ ion-header{
     ion-searchbar {
         --border-radius: 30px;
         --box-shadow: 0px 0px 0px;
-        border: 1px solid #f37c2c;
+        border: 1px solid #C6202F;
         border-radius: 30px;
         padding: 0;
         max-width: 85%;
@@ -34,10 +34,10 @@ ion-header{
     ion-label {
         font-size: 18px !important;
         font-weight: 600;
-        color: #f37c2c;
+        color: #C6202F;
     }
     span {
-        background: #f37c2c;
+        background: #C6202F;
         padding: 8px 15px;
         border-radius: 30px;
         font-size: 12px;
@@ -89,7 +89,7 @@ ion-content {
         margin: auto;
         margin-top: 20px;
         margin-bottom: 20px;
-        --background: #f37c2c;
+        --background: #C6202F;
         text-transform: capitalize;
     }
 }

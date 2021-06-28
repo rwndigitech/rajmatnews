@@ -9,7 +9,8 @@
             max-width: 144px;
             margin: auto;
             width: 100%;
-            margin-bottom: 4px;
+            margin-bottom: 26px;
+            margin-top: 26px;
          }
         h4 {
          text-align: center;
@@ -23,12 +24,13 @@
             ion-label {
                 width: 100%;
                 max-width: 100% !important;
-                color: #f37c2c;
+                color: #C6202F;
                 margin-top: 4px;
                 margin-bottom: 4px;
+                margin-left: 16px;
             }
             ion-icon{
-                color: #f37c2c;  
+                color: #C6202F;  
                 font-size: 20px;
             }
         }
@@ -53,7 +55,7 @@
         width: 100%;
         --border-radius: 30px;
         height: 42px;
-        --background: #e57a24;
+        --background: #C6202F;
     }
 }
 
@@ -63,7 +65,7 @@ ion-footer {
         border-radius: 30px 30px 0px 0px;
         ion-col[size="12"] {
             text-align: center;
-            color: #e57a24;
+            color: #C6202F;
         }
     }
 }
@@ -74,3 +76,4 @@ ion-content {
     background-position: center -5px;
     background-repeat: no-repeat;
 }
+

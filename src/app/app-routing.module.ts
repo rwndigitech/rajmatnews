@@ -45,6 +45,18 @@ const routes: Routes = [
   {
     path: 'privacy',
     loadChildren: () => import('./privacy/privacy.module').then( m => m.PrivacyPageModule)
+  },
+  {
+    path: 'editprofile',
+    loadChildren: () => import('./editprofile/editprofile.module').then( m => m.EditprofilePageModule)
+  },
+  {
+    path: 'loginusers',
+    loadChildren: () => import('./loginusers/loginusers.module').then( m => m.LoginusersPageModule)
+  },
+  {
+    path: 'addupload',
+    loadChildren: () => import('./addupload/addupload.module').then( m => m.AdduploadPageModule)
   }
 ];
 @NgModule({

@@ -37,7 +37,7 @@
     ion-searchbar{
         .searchbar-search-icon {
             right: 15px !important;
-            color: #f37c2c;
+            color: #C6202F;
         }
     }
     .searchbar-input-container {
@@ -46,7 +46,7 @@
     }
     .searchbar-input.sc-ion-searchbar-md{
         padding-left: 20px !important;
-        color: #f37c2c;
+        color: #C6202F;
     }
 }
 
@@ -67,4 +67,16 @@ ion-menu-button {
     ion-toggle.ios {
         zoom: .8 !important;
     } 
+}
+
+
+.header-ios ion-toolbar {
+    --border-width: 0 !important;
+}
+.textarea_sec {
+    ion-textarea {
+        textarea{
+            height: 130px;
+        } 
+    }
 }

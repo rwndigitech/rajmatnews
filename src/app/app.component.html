@@ -16,16 +16,18 @@
       <ion-content>
         <ion-list class="sidebar_menu_list">
           <ion-menu-toggle auto-hide="false">
-            <ion-item  *ngFor="let p of appPages" lines="none" [routerDirection]="'root'" [routerLink]="[p.url]">
-              <ion-icon slot="start" [name]="p.icon"></ion-icon>
-              <ion-label>
+            <ion-item  *ngFor="let p of appPages" lines="none" [routerDirection]="'root'">
+              <!-- <ion-icon slot="start" [name]="p.src"></ion-icon> -->
+              <img *ngIf="p.img" [routerLink]="[p.url]" [src]="p.img" />
+              <ion-label [routerLink]="[p.url]">
                 {{p.title}}
               </ion-label>
             </ion-item>
             <h6 class="commu_sec">Communicate</h6>
-            <ion-item  *ngFor="let p of appPages2" lines="none" [routerDirection]="'root'" [routerLink]="[p.url]">
-              <ion-icon slot="start" [name]="p.icon"></ion-icon>
-              <ion-label>
+            <ion-item  *ngFor="let p of appPages2" lines="none" [routerDirection]="'root'">
+              <!-- <ion-icon slot="start" [name]="p.icon"></ion-icon> -->
+              <img *ngIf="p.img" [routerLink]="[p.url]" [src]="p.img" />
+              <ion-label [routerLink]="[p.url]">
                 {{p.title}}
               </ion-label>
             </ion-item>

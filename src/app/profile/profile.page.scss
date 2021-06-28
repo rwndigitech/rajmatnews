@@ -8,7 +8,7 @@ ion-content{
 
 .my_profile_sec {
     h6 {
-        color: #e57a24;
+        color: #C6202F;
         font-size: 16px;
         margin-bottom: 16px;
     }
@@ -27,7 +27,7 @@ ion-content{
             font-size: 14px !important;
         }
         span {
-            background: #ec9f61;
+            background: #C6202F;
             padding: 5px 14px;
             color: #fff;
             font-size: 12px;
@@ -43,7 +43,7 @@ ion-content{
     margin-top: 25px;
     h5 {
         font-size: 16px;
-        color: #f7ba89;
+        color: #C6202F;
     }
     ion-item {
         --inner-padding-end: 0;
@@ -53,16 +53,16 @@ ion-content{
             border-radius: 4px;
             font-size: 16px;
             padding: 3px;
-            color: #ec9f61;
+            color: #C6202F;
         }
         ion-label{
             margin-left: 12px;
             font-size: 14px !important;
-            color: #ec9f61 !important;
+            color: #C6202F !important;
         }
         .toggle-checked {
             --handle-background-checked: #fff;
-            --background-checked: #ec9f61;
+            --background-checked: #C6202F;
         }
         ion-icon[name="chevron-forward"] {
             border: 0 !important;
