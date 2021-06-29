@@ -13,3 +13,16 @@
     border-radius: 22px 22px 0px 0px;
   }
 }
+
+
+.tab-selected {
+  .select_mob {
+    display: block;
+  }
+  .unselect_mob {
+    display: none;
+  }
+}
+.select_mob {
+  display: none;
+}
